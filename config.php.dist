@@ -1,0 +1,11 @@
+<?php
+return [
+	'csvfile' => '',
+    'db' => [
+    	'driver'   => '',
+	    'database' => '',
+    	'username' => '',
+    	'password' => '',
+    	'hostname' => ''
+    ]
+];

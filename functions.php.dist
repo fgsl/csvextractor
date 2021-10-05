@@ -1,0 +1,14 @@
+<?php
+/**
+ * Value treatment and definition of INSERT statement
+ */
+
+function getValues(array $row) {
+    return $values;
+}
+
+function getSqlStatement(array $row)
+{
+    $values = getValues($row);
+    return "INSERT INTO (...) VALUES ($values)";
+}
