@@ -1,0 +1,18 @@
+{
+    "name" : "fgsl/csvextractor",
+    "description" : "component to extract data from CSV files to SQL database tables",
+    "version" : "0.0.1",
+    "type" : "library",
+    "keywords" : [
+        "csv",
+        "extraction",
+        "SQL",
+        "table",
+        "database"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fgsl\\": "src/"
+        }
+    }    
+}
