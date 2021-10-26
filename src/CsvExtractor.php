@@ -10,7 +10,7 @@ class CsvExtractor {
     private CsvExtractorInterface $decorator;
 
 
-    public function __constructor(array $config, CsvExtractorInterface $decorator){
+    public function __construct(array $config, CsvExtractorInterface $decorator){
         $this->config = $config;
         $this->decorator = $decorator;
     }
