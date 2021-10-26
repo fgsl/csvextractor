@@ -15,5 +15,9 @@
         "psr-4": {
             "Fgsl\\": "src/"
         }
-    }    
+    },
+    "require": {
+        "laminas/laminas-db": "^2.13",
+        "laminas/laminas-servicemanager": "^3.10"
+    }
 }
